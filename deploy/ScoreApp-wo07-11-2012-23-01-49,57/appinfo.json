@@ -1,0 +1,25 @@
+{
+	"id": "com.equusquagga.spelscore",
+	"version": "0.0.1",
+	"vendor": "Equus Quagga",
+	"type": "web",
+	"main": "index.html",
+	"title": "Spel score",
+	"icon": "icon.png",
+	"splashicon": "icon-256x256.png",
+	"visible": true,
+	"uiRevision": 2,
+	"support": {
+		"email": {
+			"address": "developer@equusquagga.com",
+			"subject": "Support Request"
+		},
+		"resources": [
+			{
+				"type": "web",
+				"label": "Website",
+				"url": "http://www.equusquagga.com"
+			}
+		]
+	}
+}

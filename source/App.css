@@ -1,0 +1,332 @@
+/*
+	Put anything you reference with "url()" in ../assets/
+	This way, you can minify your application, and just remove the "source" folder for production
+*/
+#app {
+	margin:0;
+}
+.head{
+	margin-left:44px;
+	font-size:1.5em;
+	font-weight:bold;
+}
+.version{
+	margin-left:44px;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#666;
+}
+.aboutinfo{
+	margin-right:200px; 
+	width:300px;
+	min-height:100px;
+}
+.buttonBlauw, .buttonPaars, .buttonGroen, .buttonZwart {
+	font-size:18px;
+	margin: -2px 0 -2px 0;
+}
+.buttonPaars:active, .buttonPaars.active{
+	background-color:#EE35A8;
+	color:white;
+}
+.buttonGroen:active, .buttonGroen.active{
+	background-color:#A8EE35;
+	color:white;
+}
+.buttonBlauw:active, .buttonBlauw.active{
+	background-color:#35A8EE;
+	color:white;
+}
+.buttonZwart:active, .buttonZwart.active{
+	background-color:rgba(50,50,50,1);
+	color:white;
+}
+.selectButton{
+	margin: 5px; width: 30%;
+}
+.headers{
+	height:56px;
+	background-color: rgba(33,33,33,0.9);
+}
+.Groen{
+	background-color: rgba(168,268,53,0.75);
+}
+.Blauw{
+	background-color: rgba(53,168,268,0.75);
+}
+.Paars{
+	background-color: rgba(268,53,168,0.75);
+}
+
+.btnIcon{
+	margin-top:-8px;
+	margin-bottom:-8px;
+	margin-right:5px;
+	width:32px;
+	height:32px;
+	background-position:left top;
+}
+.active .btnIcon{
+	background-position:left bottom;
+}
+.btnSpel{
+	background-image: url(../assets/spel.png);
+}
+.btnSpeler{
+	background-image:url(../assets/speler.png);
+}
+.btnFilter{
+	background-image:url(../assets/filter.png);
+}
+.linkerPaneel{
+	width:320px;
+	background-image:url(../assets/cards.jpg);
+}
+.middenPaneel{
+	width:320px;
+	background-image:url(../assets/cards.jpg);
+	background-position: -320px 0;
+}
+.rechterPaneel{
+	min-width:320px;
+	max-width:1024px;
+	background-image:url(../assets/cards.jpg);
+	background-position: -640px 0;
+}
+.panelshadow{
+	background-image:url(../assets/shadow.png);
+	position:absolute;
+	top:0;
+	left:-7px;
+	width:7px;
+	height:1024px;
+}
+.dim{
+	opacity: 0.1;
+}
+.addbutton{
+	position:absolute;
+	right:3px;
+	top:3px;
+}
+.spellistitem{
+	color:black;
+	height:48px;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	background-color: rgba(238,238,238,1);
+	background-image:url(../assets/gradient.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+.spelselected{
+	background-color: rgba(168,238,53,1);
+}
+.spelline{
+	background-color: rgba(168,238,53,1);
+	height:4px;
+	width:100%;
+}
+.spelnaam{
+	font-size:18px;
+	position:absolute;
+	top:13px;
+	left:52px;
+}
+.spelspelers{
+	font-size:12px;
+	position:absolute;
+	top:2px;
+	left:52px;
+}
+.speltijd{
+	font-size:12px;
+	position:absolute;
+	top:2px;
+	left:152px;
+}
+.spelwaardering{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:52px;
+}
+.spelhighscore{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:106px;
+}
+.spelicon{
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.spelaantal{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:176px;
+}
+.speldatum{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	right:4px;
+}
+.spelbadge{
+	width:10px;
+	height:10px;
+	margin:1px;
+	border:0px;
+}
+.badges{
+	font-size:1px;
+	position:absolute;
+	top:0px;
+	right:4px;
+	margin:0;
+	padding:0;
+}
+
+.spelerlistitem{
+	color:black;
+	height:48px;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	background-color: rgba(238,238,238,1);
+	background-image:url(../assets/gradient.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+.spelerselected{
+	background-color: rgba(53,168,238,1);
+}
+.spelerline{
+	background-color: rgba(53,168,238,1);
+	height:4px;
+	width:100%;
+}
+.spelernaam{
+	font-size:18px;
+	position:absolute;
+	top:13px;
+	left:52px;
+}
+.spelericon{
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.speleraantal{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:176px;
+}
+.spelerdatum{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	right:4px;
+}
+
+.filterlistitem{
+	color:black;
+	height:48px;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	background-color: rgba(238,238,238,1);
+	background-image:url(../assets/gradient.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+.filterselected{
+	background-color: rgba(268,53,168,1);
+}
+.filterline{
+	background-color: rgba(268,53,168,1);
+	height:4px;
+	width:100%;
+}
+.filternaam{
+	font-size:18px;
+	position:absolute;
+	top:13px;
+	left:52px;
+}
+.filtericon{
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.filteraantal{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:176px;
+}
+.filterdatum{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	right:4px;
+}
+.gespeeldlistitem{
+	color:black;
+	height:48px;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	background-color: rgba(238,238,238,1);
+	background-image:url(../assets/gradient.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+.gespeeldselected{
+	background-color: rgba(50,50,50,1);
+	color:white;
+}
+.gespeeldline{
+	background-color: rgba(50,50,50,1);
+	height:4px;
+	width:100%;
+}
+.gespeeldnaam{
+	font-size:18px;
+	position:absolute;
+	top:13px;
+	left:52px;
+}
+.gespeeldicon{
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.gespeeldaantal{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	left:176px;
+}
+.gespeelddatum{
+	font-size:12px;
+	position:absolute;
+	bottom:2px;
+	right:4px;
+}
